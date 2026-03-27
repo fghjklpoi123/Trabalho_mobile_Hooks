@@ -17,7 +17,6 @@ type CartContextType = {
 
 export const CartContext = createContext({} as CartContextType);
 
-// Base de dados externa ao componente para limpeza de código
 export const produtos: Produto[] = [
   { id: "1", nome: "Notebook", preco: 3000 },
   { id: "2", nome: "Mouse", preco: 100 },

@@ -24,7 +24,6 @@ export default function Home() {
         )}
       />
 
-      {/* Footer Carrinho */}
       <View style={styles.footer}>
         <Text style={styles.footerTitle}>Carrinho:</Text>
         {carrinho.map((item) => (
@@ -40,7 +39,7 @@ export default function Home() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: "black" },
-  listContent: { padding: 20, paddingBottom: 150 }, // Espaço para não cobrir o footer
+  listContent: { padding: 20, paddingBottom: 150 },
   card: {
     backgroundColor: "purple",
     padding: 30,
